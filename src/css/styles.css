@@ -402,7 +402,7 @@ html {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 940px;
   }
 }
 
@@ -2872,3 +2872,135 @@ html {
 }
 
 /*=====  End of Flex  ======*/
+html {
+  font-family: "lato";
+  color: #2E2E2E;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 59px;
+}
+
+.o-isolator {
+  width: 100%;
+  padding: 30px;
+}
+
+.o-divider {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.o-divider__left {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.o-divider__right {
+  display: inline-block;
+  margin-left: auto;
+}
+
+.o-block__body {
+  display: block;
+  margin-top: 20px;
+}
+
+.o-block--small .o-block__body {
+  margin-top: 10px;
+}
+
+.o-block--big .o-block__body {
+  margin-top: 30px;
+}
+
+.o-justify {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.o-justify--v {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.o-justify--v .o-justify__element {
+  margin-top: auto;
+}
+
+.o-list--hr {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.o-list--hr li {
+  display: inline-block;
+}
+
+.o-list--hr li + li {
+  margin-left: 20px;
+}
+
+.c-paper {
+  background-color: #FAFAFA;
+  border: solid 30px white;
+}
+
+.c-header {
+  padding-top: 30px;
+}
+
+.c-header__link {
+  color: #2E2E2E;
+  font-weight: 300;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.c-header__link--bold {
+  font-weight: 700;
+}
+
+.c-presentation__title {
+  font-family: "montserrat";
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: .21429em;
+}
+
+.c-presentation__content {
+  font-family: "lato";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  letter-spacing: .02857em;
+}
+
+.u-full-height {
+  height: 100%;
+}
+
+.u-full-height--vh {
+  height: 100vh;
+}
+
+.u-mgb-90 {
+  margin-bottom: 90px;
+}

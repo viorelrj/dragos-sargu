@@ -1,0 +1,17 @@
+.c-header {
+
+	padding-top: 30px;
+
+	&__link {
+		color: $black;
+		
+		font-weight: 300;
+		font-size: 18px;
+		text-decoration: none;
+
+		&--bold {
+			font-weight: 700;
+		}
+	}
+
+}

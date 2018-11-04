@@ -1,0 +1,18 @@
+.c-presentation {
+
+	&__title {
+		font-family: $accent-font;
+		font-size: 14px;
+		line-height: 18px;
+		font-weight: 700;
+		letter-spacing: .21429em;
+	}
+
+	&__content {
+		font-family: $default-font;
+		font-size: 14px;
+		line-height: 22px;
+		font-weight: 300;
+		letter-spacing: .02857em;
+	}
+}

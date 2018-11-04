@@ -1,0 +1,19 @@
+.o-list {
+
+	
+	&--hr {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+
+		& li {
+			display: inline-block;
+		}
+
+		//Every lsit item preceded by a list item
+		& li + li {
+			margin-left: 20px;
+		}
+	}
+}

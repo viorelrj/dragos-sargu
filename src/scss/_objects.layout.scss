@@ -1,2 +1,56 @@
+.o-isolator {
+	width: 100%;
+	padding: 30px;
+}
 
+.o-divider {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
 
+	&__left {
+		display: inline-block;
+		margin-left: 0;
+	}
+
+	&__right {
+		display: inline-block;
+		margin-left: auto;
+	}
+}
+
+.o-block {
+
+	&__head {
+
+	}
+
+	&__body {
+		display: block;
+		margin-top: 20px;
+	}
+
+	&--small {
+		.o-block__body {
+			margin-top: 10px;
+		}
+	}
+
+	&--big {
+		.o-block__body {
+			margin-top: 30px;
+		}
+	}
+}
+
+.o-justify{
+	display: flex;
+
+	&--v {
+		flex-flow: column;
+
+		.o-justify__element {
+			margin-top: auto;
+		}
+	}
+}
