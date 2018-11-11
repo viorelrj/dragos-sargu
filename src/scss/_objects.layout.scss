@@ -54,3 +54,28 @@
 		}
 	}
 }
+
+.o-section {
+
+	&__heading {
+		transform: rotate(-90deg) translate(25%, -140px);
+		position: absolute;
+
+		display: flex;
+		align-items: center;
+	}
+
+	.line {
+		display: inline-block;
+		height: 2px;
+		width: 50px;
+
+		background-color: $black;
+	}
+
+	&__title {
+		display: inline-block;
+		margin-left: 15px;
+	}
+}
+

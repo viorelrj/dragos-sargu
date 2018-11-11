@@ -25,7 +25,7 @@ gulp.task('browser-sync', function() {
 			baseDir: 'src'
 		},
 		notify: true,
-		// open: false,
+		open: true,
 		// online: false, // Work Offline Without Internet Connection
 		// tunnel: true, tunnel: "temphome.me", // Demonstration page: http://projectname.localtunnel.me
 	})

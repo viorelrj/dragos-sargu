@@ -1,0 +1,44 @@
+.c-project {
+	margin-bottom: 60px;
+
+	&__image {
+		max-width: 100%;
+		margin: 30px 0;
+
+		box-shadow: 0 2px 27pt #00000015;
+	}
+
+	&__title {
+		margin: 10px 0;	
+	
+		font-size: 1.714rem;
+		letter-spacing: 0.0278em;
+	}
+
+	&__tags {
+		color: $accent-color;
+		text-align: right;
+
+		font-size: .857rem;
+		font-weight: 700;
+		letter-spacing: .183em;
+		line-height: 1.25em;
+	}
+
+	&__description {
+		font-size: 1rem;
+		font-weight: 300;
+		letter-spacing: .02857em;
+		line-height: 1.571em;
+	}
+
+	&__link {
+		display: inline-block;
+		margin: 1rem 0;
+		
+		font-size: 1.285rem;
+		font-weight: 700;
+		color: $black;
+		text-decoration: none;
+	}	
+}
