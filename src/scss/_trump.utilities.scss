@@ -5,12 +5,21 @@
 		&--vh {
 			height: 100vh;
 		}
+
+		&--partial {
+			height: 85vh;
+		}
 	}
+
 
 	&-mgb {
 
 		&-90 {
 			margin-bottom: 90px;
+		}
+
+		&-30 {
+			margin-bottom: 30px;
 		}
 	}
 

@@ -27,7 +27,7 @@
 
 	&__body {
 		display: block;
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 
 	&--small {
@@ -56,9 +56,10 @@
 }
 
 .o-section {
+	position: relative;
 
 	&__heading {
-		transform: rotate(-90deg) translate(25%, -140px);
+		transform: rotate(-90deg) translate(20%, -140px);
 		position: absolute;
 
 		display: flex;
@@ -67,7 +68,7 @@
 
 	.line {
 		display: inline-block;
-		height: 2px;
+		height: 1px;
 		width: 50px;
 
 		background-color: $black;

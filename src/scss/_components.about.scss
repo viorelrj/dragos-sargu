@@ -1,0 +1,55 @@
+.c-about {
+	&__avatar {
+		max-width: 100%;
+		max-height: 100%;
+		box-shadow: 0 2px 27pt #00000015;
+		transform: translateY(30px);
+	}
+
+	&__description {
+		margin-bottom: 40px;
+		margin-top: 60px;
+
+		color: $black;
+		font-size: .875rem;
+		font-weight: 300;
+		letter-spacing: .02857em;
+		line-height: 1.571em;
+	}
+
+	&__company {
+		color: #333;
+		font-size: 1.125rem;
+		font-weight: 700;
+	}
+
+	&__time {
+		color: #333;
+		font-size: .875rem;	
+		font-weight: 300;	
+	}
+
+	&__title {
+		color: #333;
+		font-size: 1.125rem;
+		font-weight: 300;
+	}
+}
+
+.c-card {
+	background-color: $accent-color--faded;
+	width: 100%;
+	height: 100%;
+	transform: translateX(30px);
+
+	& > * {
+		transform: translateX(-30px);
+	}
+
+	&--left {
+		position: absolute;
+		width: 60%;
+		left: -30px;
+		z-index: -10;
+	}
+}

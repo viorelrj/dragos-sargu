@@ -402,13 +402,13 @@ html {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 940px;
+    max-width: 810px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 960px;
   }
 }
 
@@ -2879,12 +2879,12 @@ html {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 59px;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -2918,7 +2918,7 @@ h2 {
 
 .o-block__body {
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .o-block--small .o-block__body {
@@ -2948,10 +2948,14 @@ h2 {
   margin-top: auto;
 }
 
+.o-section {
+  position: relative;
+}
+
 .o-section__heading {
-  -webkit-transform: rotate(-90deg) translate(25%, -140px);
-      -ms-transform: rotate(-90deg) translate(25%, -140px);
-          transform: rotate(-90deg) translate(25%, -140px);
+  -webkit-transform: rotate(-90deg) translate(20%, -140px);
+      -ms-transform: rotate(-90deg) translate(20%, -140px);
+          transform: rotate(-90deg) translate(20%, -140px);
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2965,7 +2969,7 @@ h2 {
 
 .o-section .line {
   display: inline-block;
-  height: 2px;
+  height: 1px;
   width: 50px;
   background-color: #2E2E2E;
 }
@@ -3002,7 +3006,7 @@ h2 {
 .c-header__link {
   color: #2E2E2E;
   font-weight: 300;
-  font-size: 1.28rem;
+  font-size: 1.125rem;
   text-decoration: none;
 }
 
@@ -3012,7 +3016,7 @@ h2 {
 
 .c-presentation__title {
   font-family: "montserrat";
-  font-size: 1rem;
+  font-size: .875rem;
   line-height: 1.28em;
   font-weight: 700;
   letter-spacing: .21429em;
@@ -3020,7 +3024,7 @@ h2 {
 
 .c-presentation__content {
   font-family: "lato";
-  font-size: 1rem;
+  font-size: .875rem;
   line-height: 1.375em;
   font-weight: 300;
   letter-spacing: .04em;
@@ -3043,22 +3047,23 @@ h2 {
 }
 
 .c-project__title {
-  margin: 10px 0;
-  font-size: 1.714rem;
-  letter-spacing: 0.0278em;
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.00278em;
 }
 
 .c-project__tags {
   color: #CACACA;
   text-align: right;
-  font-size: .857rem;
+  font-size: .75rem;
   font-weight: 700;
   letter-spacing: .183em;
   line-height: 1.25em;
 }
 
 .c-project__description {
-  font-size: 1rem;
+  margin: 0;
+  font-size: .875rem;
   font-weight: 300;
   letter-spacing: .02857em;
   line-height: 1.571em;
@@ -3066,11 +3071,71 @@ h2 {
 
 .c-project__link {
   display: inline-block;
-  margin: 1rem 0;
+  margin: .875rem 0;
   font-size: 1.285rem;
   font-weight: 700;
   color: #2E2E2E;
   text-decoration: none;
+}
+
+.c-about__avatar {
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-box-shadow: 0 2px 27pt #00000015;
+          box-shadow: 0 2px 27pt #00000015;
+  -webkit-transform: translateY(30px);
+      -ms-transform: translateY(30px);
+          transform: translateY(30px);
+}
+
+.c-about__description {
+  margin-bottom: 40px;
+  margin-top: 60px;
+  color: #2E2E2E;
+  font-size: .875rem;
+  font-weight: 300;
+  letter-spacing: .02857em;
+  line-height: 1.571em;
+}
+
+.c-about__company {
+  color: #333;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.c-about__time {
+  color: #333;
+  font-size: .875rem;
+  font-weight: 300;
+}
+
+.c-about__title {
+  color: #333;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.c-card {
+  background-color: #FAFAFA;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translateX(30px);
+      -ms-transform: translateX(30px);
+          transform: translateX(30px);
+}
+
+.c-card > * {
+  -webkit-transform: translateX(-30px);
+      -ms-transform: translateX(-30px);
+          transform: translateX(-30px);
+}
+
+.c-card--left {
+  position: absolute;
+  width: 60%;
+  left: -30px;
+  z-index: -10;
 }
 
 .u-full-height {
@@ -3081,8 +3146,16 @@ h2 {
   height: 100vh;
 }
 
+.u-full-height--partial {
+  height: 85vh;
+}
+
 .u-mgb-90 {
   margin-bottom: 90px;
+}
+
+.u-mgb-30 {
+  margin-bottom: 30px;
 }
 
 .u-flex-align__lt {
