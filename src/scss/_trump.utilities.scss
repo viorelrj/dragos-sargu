@@ -16,6 +16,21 @@
 		}
 	}
 
+	&-pdb {
+		&-60 {
+			padding-bottom: 60px;
+		}
+	}
+
+	&-clr-padding {
+		padding: 0;
+
+		&--sides {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
 
 	&-mgb {
 

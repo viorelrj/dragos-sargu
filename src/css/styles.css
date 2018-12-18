@@ -3262,6 +3262,10 @@ h2 {
   font-weight: 300;
 }
 
+.c-footer--short {
+  padding: 60px 0;
+}
+
 .c-overview {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -3323,6 +3327,29 @@ h2 {
   color: #2E2E2E;
 }
 
+.c-cite {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.c-cite__icon {
+  margin-bottom: 0;
+  display: block;
+  font-family: "lato";
+  font-weight: 900;
+  line-height: 2.75rem;
+  text-align: center;
+}
+
+.c-cite__text {
+  margin: 0;
+  font-family: "lato";
+  font-weight: 300;
+  line-height: 3.75rem;
+  letter-spacing: 0.056em;
+  text-align: center;
+}
+
 .u-shadow {
   -webkit-box-shadow: 0 2px 27pt #00000015;
           box-shadow: 0 2px 27pt #00000015;
@@ -3338,6 +3365,19 @@ h2 {
 
 .u-full-height--partial {
   height: 85vh;
+}
+
+.u-pdb-60 {
+  padding-bottom: 60px;
+}
+
+.u-clr-padding {
+  padding: 0;
+}
+
+.u-clr-padding--sides {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .u-mgb-90 {
