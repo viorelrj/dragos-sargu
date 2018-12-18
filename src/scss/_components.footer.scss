@@ -10,4 +10,11 @@
 		display: inline-block;
 		font-size: 1.125rem;
 	}
+
+	&__copyright {
+		font-size: 0.875rem;
+		color: $black;
+		letter-spacing: 0.002857em;
+		font-weight: 300;
+	}
 }

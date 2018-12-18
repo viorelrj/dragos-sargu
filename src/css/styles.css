@@ -3143,7 +3143,8 @@ h2 {
 }
 
 .c-testimonials {
-  padding: 90px 0;
+  padding-top: 100px;
+  padding-bottom: 90px;
 }
 
 .c-testimonial__head {
@@ -3211,6 +3212,13 @@ h2 {
   text-decoration: none;
   display: inline-block;
   font-size: 1.125rem;
+}
+
+.c-footer__copyright {
+  font-size: 0.875rem;
+  color: #2E2E2E;
+  letter-spacing: 0.002857em;
+  font-weight: 300;
 }
 
 .u-full-height {
