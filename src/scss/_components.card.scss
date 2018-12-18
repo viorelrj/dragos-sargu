@@ -1,0 +1,17 @@
+.c-card {
+	background-color: $accent-color--faded;
+	width: 100%;
+	height: 100%;
+	transform: translateX(30px);
+
+	& > * {
+		transform: translateX(-30px);
+	}
+
+	&--left {
+		position: absolute;
+		width: 60%;
+		left: -30px;
+		z-index: -10;
+	}
+}
