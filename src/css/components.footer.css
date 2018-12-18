@@ -1,0 +1,12 @@
+.c-footer {
+  padding: 105px 0;
+}
+
+.c-footer__link {
+  display: inline-block;
+  margin-left: 42px;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.125rem;
+}

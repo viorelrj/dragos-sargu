@@ -1,0 +1,29 @@
+.c-contacts {
+
+	&__title {
+		font-size: 1.5em;
+		font-family: $accent-font;
+		font-weight: 600;
+		letter-spacing: 0.001667em;
+		line-height: 1.825rem;
+		text-align: center;
+		color: $black;
+	}
+
+	&__address {
+		display: inline-block;
+		padding-bottom: 8px;
+		border-bottom: 1px solid $black;
+		
+		text-decoration: none;
+		font-family: $default-font;
+		color: $grey;
+		font-size: 1.125rem;
+		letter-spacing: 0.002;
+	}
+
+	&__box {
+		padding: 90px 0;
+		text-align: center;
+	}
+}
