@@ -6,10 +6,46 @@ html {
 
 h1 {
 	font-size: 2.25rem;
-	line-height: 59px;
+	font-weight: 700;
+	line-height: 3.75rem;
+	letter-spacing: 0.00278;
 }
 
 h2 {
+	font-family: $accent-font;
 	font-size: 2rem;
 	font-weight: 700;
+	line-height: 2.5rem;
+	letter-spacing: 0;
+}
+
+h3 {
+	font-family: $accent-font;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1.875rem;
+	letter-spacing: 0;
+}
+
+h4 {
+	font-family: $accent-font;
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 1.375rem;
+	letter-spacing: 0;
+}
+
+h5 {
+	font-size: 0.875rem;
+	font-weight: 700;
+	line-height: 1.5rem;
+	letter-spacing: 0.002857;
+}
+
+h6 {
+	font-size: 0.875rem;
+	font-weight: 300;
+	line-height: 1.5rem;
+	letter-spacing: 0.002857;
+
 }
