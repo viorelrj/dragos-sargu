@@ -26,7 +26,7 @@ gulp.task("minify:css", function() {
 	.pipe(gulp.dest("prod/css"))
 });
 
-gulp.task("prod", function(){
+gulp.task("prod", ['styles'], function(){
 	gulp.start("minify:css");
 
 	gulp.src(baseFolder + "*.html")
