@@ -20,10 +20,7 @@
 }
 
 .c-header-group {
-	&__item {
-		
-		& + & {
-			margin-left: 2.75rem;
-		}
-	}
+	display: flex;
+	justify-content: space-between;
+	max-width: 250px;
 }

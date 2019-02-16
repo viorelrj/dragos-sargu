@@ -8,11 +8,17 @@
 	}
 
 	&__title {
+		margin: 33px 0 21px;
+
 		font-size: 1.5rem;
+		line-height: 1.25em;
 		letter-spacing: 0.00278em;
+		font-weight: 600;
 	}
 
 	&__description {
+		margin: 0;
+
 		font-size: 0.875rem;
 		letter-spacing: 0.002857em;
 		font-weight: 300;

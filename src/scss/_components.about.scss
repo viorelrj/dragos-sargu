@@ -9,17 +9,18 @@
 	}
 
 	&__description {
-		margin-bottom: 40px;
+		margin-bottom: 54px;
 		margin-top: 60px;
 
 		color: $black;
 		font-size: .875rem;
 		font-weight: 300;
 		letter-spacing: .02857em;
-		line-height: 1.571em;
+		line-height: 1.7142em;
 	}
 
 	&__company {
+		font-family: $accent-font;
 		color: #333;
 		font-size: 1.125rem;
 		font-weight: 700;
@@ -27,13 +28,15 @@
 
 	&__time {
 		color: #333;
+		letter-spacing: 0.0285em;
 		font-size: .875rem;	
-		font-weight: 300;	
+		font-weight: 300;
 	}
 
 	&__title {
 		color: #333;
-		font-size: 1.125rem;
+		letter-spacing: 0.0285em;
+		font-size: .875rem;	
 		font-weight: 300;
 	}
 }

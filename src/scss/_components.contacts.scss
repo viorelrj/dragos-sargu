@@ -17,9 +17,15 @@
 		
 		text-decoration: none;
 		font-family: $default-font;
-		color: $grey;
+		color: $black;
 		font-size: 1.125rem;
-		letter-spacing: 0.002;
+		font-weight: 600;
+
+		transition: color .3s ease;
+
+		&:hover {
+			color: $grey;
+		}
 	}
 
 	&__box {

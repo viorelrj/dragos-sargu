@@ -6,28 +6,32 @@
 .c-testimonial {
 	
 	&__head {
-		margin-bottom: 30px;
+		margin-bottom: 21px;
 	}
 
 	&__name {
-		font-family: $accent-font;
+		display: inline-block;
+		
 		font-size: .845rem;
 		color: $black;
 		font-weight: 700;
-		letter-spacing: 0.002857em;
+		letter-spacing: 0.0285em;
 		white-space: nowrap;
 	}
 
 	&__title {
+		display: inline-block;
+		margin-left: 10px;
+		
 		font-family: $default-font;
 		font-size: .875rem;
-		color: $black;
-		letter-spacing: 0.002857em;
+		color: $smoke-grey;
+		letter-spacing: 0.0285em;
 	}
 
 	&__content {
 		font-family: $default-font;
-		font-size: .845rem;
+		font-size: .875rem;
 		color: $black;
 		letter-spacing: 0.002857em;
 		line-height: 1.375rem;
