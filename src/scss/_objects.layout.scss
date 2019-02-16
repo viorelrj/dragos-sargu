@@ -44,12 +44,11 @@
 	}
 
 	&__head {
-
+		margin-bottom: 20px;
 	}
 
 	&__body {
 		display: block;
-		margin-top: 10px;
 	}
 }
 
@@ -73,24 +72,33 @@
 	}
 
 	&__heading {
-		transform: rotate(-90deg) translate(20%, -140px);
+		transform: rotate(-90deg) translate(40%, -140px);
 		position: absolute;
 
 		display: flex;
 		align-items: center;
-	}
 
-	.line {
-		display: inline-block;
-		height: 1px;
-		width: 50px;
+		&::before {
+			content: '';
 
-		background-color: $black;
+			position: absolute;
+			right: 100%;
+			transform: translateX(-30px);
+
+			display: inline-block;
+			height: 1px;
+			width: 50px;
+
+			background-color: $black;
+		}
+
+		&--pushed {
+			transform: rotate(-90deg) translate(80%, -140px);
+		}
 	}
 
 	&__title {
 		display: inline-block;
-		margin-left: 15px;
 	}
 
 }

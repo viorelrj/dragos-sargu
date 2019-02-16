@@ -1,6 +1,7 @@
 .c-presentation {
 
 	&__title {
+		margin: 0;
 		font-family: $accent-font;
 		font-size: .875rem;
 		line-height: 1.28em;
@@ -9,7 +10,8 @@
 	}
 
 	&__content {
-		font-family: $default-font;
+		margin: 0;
+
 		font-size: .875rem;
 		line-height: 1.375em;
 		font-weight: 300;
