@@ -11,20 +11,20 @@
 	}
 
 	&__address {
+		font-family: $accent-font;
 		display: inline-block;
-		padding-bottom: 8px;
+		padding-bottom: 4px;
 		border-bottom: 2px solid $black;
 		
 		text-decoration: none;
-		font-family: $default-font;
-		color: $black;
+		color: $grey;
 		font-size: 1.125rem;
 		font-weight: 600;
 
 		transition: color .3s ease;
 
 		&:hover {
-			color: $grey;
+			color: $black;
 		}
 	}
 
