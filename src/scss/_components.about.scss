@@ -26,17 +26,22 @@
 		font-weight: 600;
 	}
 
+	&__link {
+		color: inherit;
+		text-decoration: none;
+	}
+
 	&__time {
 		color: #333;
 		letter-spacing: 0.0285em;
-		font-size: .875rem;	
+		font-size: .875rem;
 		font-weight: 300;
 	}
 
 	&__title {
 		color: #333;
 		letter-spacing: 0.0285em;
-		font-size: .875rem;	
+		font-size: .875rem;
 		font-weight: 300;
 	}
 }
