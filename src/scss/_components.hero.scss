@@ -1,0 +1,22 @@
+.c-hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&__title {
+		display: block;
+		height: 390px;
+
+		@include media-min (md) {
+			height: auto;
+		}
+	}
+
+	&__content {
+		margin-bottom: 0;
+
+		@include media-min(md) {
+			margin-bottom: 90px;
+		}
+	}
+}

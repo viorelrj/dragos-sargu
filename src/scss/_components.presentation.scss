@@ -1,4 +1,13 @@
 .c-presentation {
+	margin-top: 56px;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	@include media-min(md) {
+		margin: 0;
+	}
 
 	&__title {
 		margin: 0;

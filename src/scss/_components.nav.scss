@@ -1,0 +1,26 @@
+.c-nav {
+	display: none;
+	justify-content: space-between;
+	max-width: 250px;
+
+	@include media-min(md) {
+		display: flex;
+	}
+
+	&--sm {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 26px;
+
+		padding: 0 20px;
+
+		.c-nav__item + .c-nav__item {
+			margin-top: 32px;
+		}
+
+		@include media-min(md) {
+			display: none;
+		}
+	}
+}
