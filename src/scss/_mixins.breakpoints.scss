@@ -1,0 +1,13 @@
+$media-breakpoints: (
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px
+) !default;
+
+// breakpoint should have one of the values: sm, md, lg, xl
+@mixin media-min ($breakpoint) {
+	@media (min-width: #{map-get($media-breakpoints, $breakpoint)}) {
+		@content;
+	}
+}
